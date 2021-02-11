@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="draw-background" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.draw.Draw">
+   <children>
+      <JFXButton buttonType="RAISED" layoutX="185.0" layoutY="313.0" onAction="#replay" styleClass="again-draw" stylesheets="@../css/style.css" text="Play again">
+         <font>
+            <Font name="Arial" size="22.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="85.0" layoutY="104.0" text="It's a draw :/" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="64.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="quitBtn" buttonType="RAISED" layoutX="345.0" layoutY="313.0" onAction="#quit" styleClass="again-draw-reversed" stylesheets="@../css/style.css" text="Quit">
+         <font>
+            <Font name="Arial" size="22.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

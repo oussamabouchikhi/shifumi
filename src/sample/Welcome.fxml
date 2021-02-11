@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.main.Controller">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="700.0" pickOnBounds="true" styleClass="welcome">
+         <image>
+            <Image url="@images/cover.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="290.0" layoutY="341.0">
+         <font>
+            <Font name="Impact" size="36.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="startGame" buttonType="RAISED" layoutX="266.0" layoutY="338.0" onAction="#playGame" text="START GAME">
+         <font>
+            <Font name="Impact" size="27.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

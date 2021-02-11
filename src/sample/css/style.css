@@ -1,0 +1,73 @@
+.background {
+    -fx-background-color: #25272E;
+}
+
+.lose-background {
+    -fx-background-color: #E25640;
+}
+
+.draw-background {
+    -fx-background-color: #FFDE79;
+}
+
+.win-background {
+    -fx-background-color: #82C869;
+}
+
+.score-board {
+    -fx-background-color: transparent;
+    -fx-border-width: 3px;
+    -fx-border: solid;
+    -fx-border-color:  #FFFFFF;
+}
+
+.player-name, .quit {
+    -fx-text-fill:  #FFFFFF;
+}
+
+.player-name {
+    -fx-background-color: #E25640;
+}
+
+.reset {
+    -fx-background-color: #FFDE79;
+    -fx-text-fill:  #25272E;
+}
+
+.quit {
+    -fx-background-color: #E25640;
+}
+
+.again-win, .again-draw, .again-lose {
+    -fx-background-color:  #FFFFFF;
+}
+
+.again-win {
+    -fx-text-fill: #82C869;
+}
+
+.again-draw {
+    -fx-text-fill: #FFDE79;
+}
+
+.again-lose {
+    -fx-text-fill: #E25640;
+}
+
+.again-draw-reversed, .again-lose-reversed, .again-win-reversed {
+    -fx-text-fill: #FFFFFF;
+    -fx-border-width: 2px;
+    -fx-border-color:  #FFFFFF;
+}
+
+.again-draw-reversed {
+    -fx-background-color:  #FFDE79;
+}
+
+.again-lose-reversed {
+    -fx-background-color:  #E25640;
+}
+
+.again-win-reversed {
+    -fx-background-color:  #82C869;
+}
